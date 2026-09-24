@@ -300,10 +300,14 @@ Best regards,
                 </div>
                 <input
                   type="number"
-                  min="500"
+                  min="0"
                   step="500"
-                  value={followers}
-                  onChange={(e) => handleFollowersChange(Math.max(0, parseInt(e.target.value) || 0))}
+                  placeholder="0"
+                  value={followers === 0 ? "" : followers}
+                  onChange={(e) => {
+                    const raw = e.target.value.replace(/^0+(?=\d)/, "");
+                    handleFollowersChange(raw === "" ? 0 : parseInt(raw, 10) || 0);
+                  }}
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
                 />
                 <div className="flex gap-1 pt-1">
@@ -328,12 +332,14 @@ Best regards,
                 </div>
                 <input
                   type="number"
-                  min="100"
+                  min="0"
                   step="500"
-                  value={views}
+                  placeholder="0"
+                  value={views === 0 ? "" : views}
                   onChange={(e) => {
                     setViewsManuallyEdited(true);
-                    setViews(Math.max(0, parseInt(e.target.value) || 0));
+                    const raw = e.target.value.replace(/^0+(?=\d)/, "");
+                    setViews(raw === "" ? 0 : parseInt(raw, 10) || 0);
                   }}
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
                 />
