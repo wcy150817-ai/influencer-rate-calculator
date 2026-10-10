@@ -29,8 +29,8 @@ export default function NativeAdKPIPage() {
           </p>
           
           {/* Affiliate CTA */}
-          <a href="https://voluum.com/?ref=influencercalc" target="_blank" rel="sponsored" className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-lg py-4 px-8 rounded-lg shadow-lg transition-transform transform hover:-translate-y-1">
-            Track Your KPIs Accurately with Voluum 🚀
+          <a href="https://bbux.me/JarLdlZPa" target="_blank" rel="sponsored" className="inline-block bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-lg py-4 px-8 rounded-lg shadow-lg transition-transform transform hover:-translate-y-1">
+            Hire Top-Tier Native Ad Buyers on Fiverr 🚀
           </a>
         </div>
       </header>
