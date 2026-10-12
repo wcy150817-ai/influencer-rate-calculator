@@ -81,7 +81,7 @@ export default function YouTubeSponsorshipCalculatorPage() {
     })),
   };
 
-  const fiverrAffiliateHtml = `<a href="https://bbux.me/JarLdlZPa" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#111111;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;">Hire Freelance Video Editors &amp; Producers on Fiverr</a>`;
+  const fiverrAffiliateHtml = `<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#111111;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;">Hire Freelance Video Editors &amp; Producers on Fiverr</a>`;
 
   return (
     <div className="w-full max-w-full overflow-x-hidden min-h-screen bg-slate-950 text-slate-100 font-sans">
