@@ -34,7 +34,7 @@ export default function CpvCalculator() {
   const igCpc = (budget / Math.max(igClicks, 1)).toFixed(2);
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-8 p-6 sm:p-8 bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-800 overflow-x-hidden box-border">
+    <div className="w-full max-w-4xl mx-auto my-8 p-4 sm:p-8 bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-800 overflow-x-hidden box-border">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 pb-6 border-b border-slate-800">
         <div>
           <span className="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-400 font-semibold text-xs tracking-wider uppercase rounded-full mb-2">
@@ -107,9 +107,9 @@ export default function CpvCalculator() {
       {/* Comparative Simulation Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {/* TikTok Output Card */}
-        <div className="p-5 rounded-xl bg-slate-800/70 border border-slate-700 relative overflow-hidden">
-          <div className="flex justify-between items-center mb-3">
-            <span className="font-extrabold text-base text-white flex items-center gap-2">
+        <div className="p-4 sm:p-5 rounded-xl bg-slate-800/70 border border-slate-700 relative overflow-hidden">
+          <div className="flex flex-wrap justify-between items-center gap-2 mb-3">
+            <span className="font-extrabold text-sm sm:text-base text-white flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
               TikTok Sponsored Video
             </span>
@@ -146,9 +146,9 @@ export default function CpvCalculator() {
         </div>
 
         {/* IG Reels Output Card */}
-        <div className="p-5 rounded-xl bg-slate-800/70 border border-slate-700 relative overflow-hidden">
-          <div className="flex justify-between items-center mb-3">
-            <span className="font-extrabold text-base text-white flex items-center gap-2">
+        <div className="p-4 sm:p-5 rounded-xl bg-slate-800/70 border border-slate-700 relative overflow-hidden">
+          <div className="flex flex-wrap justify-between items-center gap-2 mb-3">
+            <span className="font-extrabold text-sm sm:text-base text-white flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-pink-400 animate-pulse"></span>
               Instagram Reels Sponsored
             </span>

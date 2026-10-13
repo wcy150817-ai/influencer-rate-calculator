@@ -435,8 +435,8 @@ export default function TikTokVsReelsCpvPage() {
             <p>
               <strong>2. Triangulate with Post-Purchase Surveys:</strong> Implement zero-party post-purchase survey tools (such as Fairing or KnoCommerce) on your confirmation page. When asked &ldquo;How did you first hear about us?&rdquo;, 30% to 50% of buyers select TikTok even when Meta claims last-click attribution.
             </p>
-            <p>
-              <strong>3. Segment UTM Tagging by Creative Hook:</strong> Always inject dynamic tracking parameters into your URLs (e.g., <code>?utm_source=tiktok&amp;utm_medium=paid_video&amp;utm_campaign=summer_promo&amp;utm_content=hook_variant_a</code>) to evaluate performance at the individual video asset tier.
+            <p className="break-words">
+              <strong>3. Segment UTM Tagging by Creative Hook:</strong> Always inject dynamic tracking parameters into your URLs (e.g., <code className="break-all text-[11px] bg-slate-800 p-1 rounded font-mono">?utm_source=tiktok&amp;utm_medium=paid_video&amp;utm_campaign=summer_promo&amp;utm_content=hook_variant_a</code>) to evaluate performance at the individual video asset tier.
             </p>
           </div>
         </section>
