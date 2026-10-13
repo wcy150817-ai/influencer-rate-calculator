@@ -81,7 +81,7 @@ export default function TikTokVsReelsCpvPage() {
   const fiverrCtaHtml = `<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#111111;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;">Hire Freelance Video Editors &amp; Producers on Fiverr</a>`;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans w-full max-w-full overflow-x-hidden">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(software) }}
@@ -96,13 +96,13 @@ export default function TikTokVsReelsCpvPage() {
       />
 
       {/* Header Container */}
-      <header className="border-b border-slate-800 bg-slate-900/60 backdrop-blur sticky top-0 z-30">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="font-extrabold text-lg tracking-tight text-white flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full bg-emerald-500"></span>
+      <header className="border-b border-slate-800 bg-slate-900/60 backdrop-blur sticky top-0 z-30 w-full">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
+          <Link href="/" className="font-extrabold text-base sm:text-lg tracking-tight text-white flex items-center gap-2 shrink-0">
+            <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-500"></span>
             InfluencerRateCalc
           </Link>
-          <nav className="flex items-center gap-4 text-xs font-semibold text-slate-400">
+          <nav className="hidden sm:flex items-center gap-4 text-xs font-semibold text-slate-400">
             <Link href="/youtube-sponsorship-rate-calculator" className="hover:text-white transition">
               YouTube Calc
             </Link>
