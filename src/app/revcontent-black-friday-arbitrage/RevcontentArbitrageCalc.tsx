@@ -102,6 +102,36 @@ export default function RevcontentArbitrageCalc() {
         </div>
       </div>
 
+      {/* Preset Action Buttons */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        <button
+          id="btnPresetBfcm"
+          type="button"
+          onClick={() => {
+            setCpcBid(0.38);
+            setCreativeCtr(1.20);
+            setLanderCtr(38);
+            setMonetizationEpc(0.95);
+          }}
+          className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 transition-colors cursor-pointer"
+        >
+          Load BFCM Peak Scenario ($0.38 CPC / 1.20% CTR)
+        </button>
+        <button
+          id="btnPresetScale"
+          type="button"
+          onClick={() => {
+            setCpcBid(0.18);
+            setCreativeCtr(1.45);
+            setLanderCtr(42);
+            setMonetizationEpc(0.85);
+          }}
+          className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-emerald-400 border border-emerald-500/30 transition-colors cursor-pointer"
+        >
+          Load High-CTR Super-Winner Preset
+        </button>
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Sliders & Controls */}
         <div className="lg:col-span-7 space-y-6">
@@ -110,12 +140,22 @@ export default function RevcontentArbitrageCalc() {
               <label htmlFor="inputCpc" className="text-xs font-bold uppercase tracking-wider text-slate-300">
                 Native Ad Bid CPC ($ USD)
               </label>
-              <span className="text-sm font-black text-emerald-400" id="val-cpc">
-                ${stats.cpc.toFixed(2)} / click
-              </span>
+              <div className="flex items-center gap-1">
+                <span className="text-xs text-slate-400">$</span>
+                <input
+                  id="inputCpc"
+                  type="number"
+                  step="0.01"
+                  min="0.05"
+                  max="0.80"
+                  value={cpcBid}
+                  onChange={(e) => setCpcBid(Number(e.target.value))}
+                  className="w-20 px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-sm font-black text-emerald-400 text-right focus:outline-none focus:border-emerald-500"
+                />
+                <span className="text-xs text-slate-400">/ click</span>
+              </div>
             </div>
             <input
-              id="inputCpc"
               type="range"
               min="0.05"
               max="0.80"
