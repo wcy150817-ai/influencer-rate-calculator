@@ -50,5 +50,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: "https://influencerratecalc.com/b2b-saas-native-ads-cac",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
