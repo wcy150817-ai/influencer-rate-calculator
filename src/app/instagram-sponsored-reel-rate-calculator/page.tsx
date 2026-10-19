@@ -93,7 +93,7 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
   };
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-10 text-slate-800">
+    <main className="mx-auto max-w-4xl w-full overflow-x-hidden box-border px-4 py-10 text-slate-800">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -300,8 +300,11 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
         generate a custom quote:
       </p>
 
-      <div className="my-5 overflow-x-auto rounded-xl border border-slate-200">
-        <table className="w-full min-w-[640px] border-collapse text-left text-sm">
+      <div
+        className="my-5 w-full overflow-x-auto rounded-xl border border-slate-200"
+        style={{ overflowX: "auto", maxWidth: "100%" }}
+      >
+        <table className="w-full min-w-[600px] border-collapse text-left text-sm">
           <thead>
             <tr className="bg-slate-900 text-white">
               <th className="p-3 font-semibold">Creator Tier (Followers)</th>
@@ -542,8 +545,11 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
         which of the three short-form deliverables you are actually pricing:
       </p>
 
-      <div className="my-5 overflow-x-auto rounded-xl border border-slate-200">
-        <table className="w-full min-w-[640px] border-collapse text-left text-sm">
+      <div
+        className="my-5 w-full overflow-x-auto rounded-xl border border-slate-200"
+        style={{ overflowX: "auto", maxWidth: "100%" }}
+      >
+        <table className="w-full min-w-[600px] border-collapse text-left text-sm">
           <thead>
             <tr className="bg-slate-900 text-white">
               <th className="p-3 font-semibold">Contract Dimension</th>
@@ -709,13 +715,26 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
           Hire specialized short-form video editors on Fiverr or launch
           high-converting creator landing pages with Unbounce and Instapage.
         </p>
-        <div
-          className="mt-5 flex flex-wrap justify-center gap-3"
-          dangerouslySetInnerHTML={{
-            __html:
-              '<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none;font-size:0.9rem;">Hire Reels &amp; UGC Editors on Fiverr &rarr;</a><a href="https://bbux.me/P9xAgpccg" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#059669;color:#ffffff !important;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none;font-size:0.9rem;">Build Creator Landing Pages on Unbounce &rarr;</a><a href="https://bbux.me/X9xA3jda0" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#0f172a;border:1px solid #475569;color:#ffffff !important;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none;font-size:0.9rem;">Compare Instapage Post-Click Funnels &rarr;</a>',
-          }}
-        />
+        <div className="mt-5 flex flex-wrap justify-center gap-3">
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                '<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:0.88rem;text-align:center;">Hire Reels &amp; UGC Editors on Fiverr &rarr;</a>',
+            }}
+          />
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                '<a href="https://bbux.me/P9xAgpccg" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#059669;color:#ffffff !important;font-weight:700;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:0.88rem;text-align:center;">Build Creator Landing Pages on Unbounce &rarr;</a>',
+            }}
+          />
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                '<a href="https://bbux.me/X9xA3jda0" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#0f172a;border:1px solid #475569;color:#ffffff !important;font-weight:700;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:0.88rem;text-align:center;">Compare Instapage Funnels &rarr;</a>',
+            }}
+          />
+        </div>
       </div>
       {(() => {
         return null;
