@@ -93,7 +93,14 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
   };
 
   return (
-    <main className="mx-auto max-w-4xl w-full overflow-x-hidden box-border px-4 py-10 text-slate-800">
+    <div
+      className="min-h-screen w-full min-w-0 overflow-x-hidden bg-slate-50 text-slate-900 font-sans"
+      style={{ maxWidth: "100vw", overflowX: "hidden" }}
+    >
+    <main
+      className="mx-auto max-w-4xl w-full min-w-0 overflow-x-hidden box-border px-4 py-10 text-slate-800"
+      style={{ maxWidth: "100%", overflowX: "hidden" }}
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -740,5 +747,6 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
         return null;
       })()}
     </main>
+    </div>
   );
 }
