@@ -80,5 +80,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: "https://influencerratecalc.com/youtube-cpm-rpm-calculator",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://influencerratecalc.com/influencer-whitelisting-paid-partnership-cac-calculator",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
