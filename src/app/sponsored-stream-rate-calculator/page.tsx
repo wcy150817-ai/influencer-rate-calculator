@@ -77,7 +77,7 @@ const th = "border p-2 bg-gray-100 text-left";
 
 export default function Page() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-10 text-gray-800 leading-relaxed">
+    <main className="w-full max-w-4xl mx-auto px-4 py-10 text-gray-800 leading-relaxed overflow-x-hidden">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
         Sponsored Stream Rate Calculator: How to Price a Twitch, YouTube Live or Kick Sponsorship
