@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     'Calculate multi-stage native ad advertorial and VSL funnel drop-off: model click-to-render bounce loss, pre-lander outbound CTR, effective outbound CPC, and break-even native CPC bids.',
   alternates: {
-    canonical: 'https://influencerratecalc.com/native-ad-pre-landing-page-calculator',
+    canonical: 'https://www.influencerratecalc.com/native-ad-pre-landing-page-calculator',
   },
   openGraph: {
     title: 'Native Ad Pre-Landing Page VSL Conversion Rate & Bounce Drop-off Calculator (2026)',
     description:
       'Interactive 5-stage native ad pre-lander & VSL funnel calculator. Model click-to-session drop-off, pre-lander CTR, VSL hook retention, and break-even CPC math.',
-    url: 'https://influencerratecalc.com/native-ad-pre-landing-page-calculator',
+    url: 'https://www.influencerratecalc.com/native-ad-pre-landing-page-calculator',
     type: 'article',
   },
 };
 
-const PAGE_URL = 'https://influencerratecalc.com/native-ad-pre-landing-page-calculator';
+const PAGE_URL = 'https://www.influencerratecalc.com/native-ad-pre-landing-page-calculator';
 
 export default function NativeAdPreLandingPageCalculatorPage() {
   const articleLd = {
@@ -34,12 +34,12 @@ export default function NativeAdPreLandingPageCalculatorPage() {
     author: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc Media Buying Intelligence',
-      url: 'https://influencerratecalc.com',
+      url: 'https://www.influencerratecalc.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc',
-      url: 'https://influencerratecalc.com',
+      url: 'https://www.influencerratecalc.com',
     },
   };
 

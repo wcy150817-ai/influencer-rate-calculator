@@ -10,7 +10,7 @@ const geistMono = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://influencerratecalc.com"),
+  metadataBase: new URL("https://www.influencerratecalc.com"),
   alternates: {
     canonical: "/",
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Influencer Rate Calculator - Free Brand Deal Pricing Tool",
     description:
       "Calculate your fair sponsorship rates across YouTube, TikTok, Instagram & X in seconds.",
-    url: "https://influencerratecalc.com",
+    url: "https://www.influencerratecalc.com",
     siteName: "InfluencerRateCalc",
     type: "website",
     locale: "en_US",

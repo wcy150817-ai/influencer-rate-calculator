@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Podcast Mid-Roll vs Pre-Roll CPM Rate Calculator: Host-Read Dynamic Insertion vs Baked-In Sponsorship ROI Estimator (2026)",
     description:
       "Interactive podcast sponsorship pricing & ROI calculator: model IAB 30-day downloads, Mid-Roll vs Pre-Roll CPMs, DAI vs Baked-In back-catalog tails, and breakeven promo-code conversions.",
-    url: "https://influencerratecalc.com/podcast-mid-roll-vs-pre-roll-cpm-rate-calculator",
+    url: "https://www.influencerratecalc.com/podcast-mid-roll-vs-pre-roll-cpm-rate-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Audio & Video Sponsorship Economics Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/podcast-mid-roll-vs-pre-roll-cpm-rate-calculator",
+        "@id": "https://www.influencerratecalc.com/podcast-mid-roll-vs-pre-roll-cpm-rate-calculator",
       },
     },
     {

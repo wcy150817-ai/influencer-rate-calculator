@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description:
     "Compare B2B paid acquisition unit economics across Google Search Ads ($4.50–$12+ CPC), Microsoft Advertising with native LinkedIn Profile Targeting (30%–42% lower CPC), and Native Discovery Ads (Taboola/Outbrain $0.35–$0.95 CPC). Interactive Cost-per-MQL, SQL & CAC calculator included.",
   alternates: {
-    canonical: "https://influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
+    canonical: "https://www.influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
   },
   openGraph: {
     title:
       "Google Search vs Microsoft Bing Ads vs Native Ads: B2B Lead Gen CPC & Quality Comparison (2026)",
     description:
       "Data-driven B2B demand generation comparison: CPC, landing page CVR, MQL-to-SQL qualification rates, and LinkedIn Profile Targeting on Microsoft Ads.",
-    url: "https://influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
+    url: "https://www.influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc B2B Media Buying Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
+        "@id": "https://www.influencerratecalc.com/google-search-vs-bing-ads-vs-native-ads-b2b-cac",
       },
     },
     {

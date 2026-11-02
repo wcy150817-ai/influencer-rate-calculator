@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import ArbitrageCalculator from './ArbitrageCalculator';
 
-const URL_PATH = 'https://influencerratecalc.com/arbitrage-roi-calculator';
+const URL_PATH = 'https://www.influencerratecalc.com/arbitrage-roi-calculator';
 const TITLE = 'Arbitrage ROI Calculator: Find Your Break-Even CPC for E-Commerce Offers';
 const DESCRIPTION =
   'Free arbitrage ROI calculator. Enter CPC, landing-page CTR, offer EPC or conversion rate x AOV x payout, refunds and fees to get break-even CPC, profit per 1,000 clicks, ROI and the conversion rate you need.';

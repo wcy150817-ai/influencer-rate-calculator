@@ -6,7 +6,7 @@ import { Target, Calculator, TrendingUp, HelpCircle, ChevronRight, BookOpen, Lay
 const TITLE = "Native Ad KPI Benchmarks (2026): How to Set Your Own CTR, CPC and CPA Targets";
 const DESCRIPTION =
   "Why universal native ad benchmarks mislead, the formulas that connect CTR, CPC, eCPM and CPA, worked break-even examples, and how Taboola and Outbrain bid strategies change what you should measure.";
-const URL = "https://influencerratecalc.com/native-ad-kpi-benchmarks";
+const URL = "https://www.influencerratecalc.com/native-ad-kpi-benchmarks";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -42,7 +42,7 @@ const articleLd = {
   dateModified: "2026-10-12",
   mainEntityOfPage: URL,
   author: { "@type": "Organization", name: "InfluencerRateCalc" },
-  publisher: { "@type": "Organization", name: "InfluencerRateCalc", url: "https://influencerratecalc.com" },
+  publisher: { "@type": "Organization", name: "InfluencerRateCalc", url: "https://www.influencerratecalc.com" },
 };
 
 const faqLd = {

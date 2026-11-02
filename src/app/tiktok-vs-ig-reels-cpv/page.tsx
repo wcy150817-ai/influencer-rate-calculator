@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import CpvCalculator from './CpvCalculator';
 
-const URL_PATH = 'https://influencerratecalc.com/tiktok-vs-ig-reels-cpv';
+const URL_PATH = 'https://www.influencerratecalc.com/tiktok-vs-ig-reels-cpv';
 const TITLE = 'TikTok Sponsored Posts vs IG Reels: Cost Per View (CPV) Benchmarks (2026)';
 const DESCRIPTION =
   'B2B media buying analysis comparing TikTok Sponsored Posts and Instagram Reels: 2026 Cost Per View (CPV) benchmarks, CPM arbitrage, view duration definitions, and creator sponsorship pricing.';

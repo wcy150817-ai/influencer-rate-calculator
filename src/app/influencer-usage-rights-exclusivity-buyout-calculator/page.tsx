@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Influencer Usage Rights, Exclusivity & Raw Footage Buyout Pricing Calculator: 30/60/90-Day Paid Ad Licensing Multipliers (2026)",
     description:
       "Interactive creator contract SOW calculator: itemize organic base rates, 30/60/90-day paid ad licensing multipliers, category exclusivity windows, and raw footage buyouts.",
-    url: "https://influencerratecalc.com/influencer-usage-rights-exclusivity-buyout-calculator",
+    url: "https://www.influencerratecalc.com/influencer-usage-rights-exclusivity-buyout-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Creator Contracts & Talent Licensing Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/influencer-usage-rights-exclusivity-buyout-calculator",
+        "@id": "https://www.influencerratecalc.com/influencer-usage-rights-exclusivity-buyout-calculator",
       },
     },
     {

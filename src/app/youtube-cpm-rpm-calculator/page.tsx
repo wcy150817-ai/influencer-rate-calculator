@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description:
     "Calculate your true YouTube Partner Program (YPP) 55% AdSense RPM, Shorts Creator Pool payout, and stacked 60-second mid-roll sponsorship income across Finance, Tech, Lifestyle, and Gaming niches.",
   alternates: {
-    canonical: "https://influencerratecalc.com/youtube-cpm-rpm-calculator",
+    canonical: "https://www.influencerratecalc.com/youtube-cpm-rpm-calculator",
   },
   openGraph: {
     title:
       "YouTube CPM & RPM Calculator: Niche-by-Niche AdSense & Sponsorship Revenue Estimator (2026)",
     description:
       "Interactive YouTube CPM vs. RPM calculator modeling the 55/45 Watch Page split, monetized playback percentage, Shorts Pool RPM, and niche brand integration rates.",
-    url: "https://influencerratecalc.com/youtube-cpm-rpm-calculator",
+    url: "https://www.influencerratecalc.com/youtube-cpm-rpm-calculator",
     type: "article",
   },
 };
@@ -40,11 +40,11 @@ export default function YouTubeCpmRpmCalculatorPage() {
         publisher: {
           "@type": "Organization",
           name: "InfluencerRateCalc",
-          url: "https://influencerratecalc.com",
+          url: "https://www.influencerratecalc.com",
         },
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": "https://influencerratecalc.com/youtube-cpm-rpm-calculator",
+          "@id": "https://www.influencerratecalc.com/youtube-cpm-rpm-calculator",
         },
       },
       {

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "LinkedIn B2B Influencer & Thought Leader Ad Rate Calculator: Sponsored Post vs Newsletter vs Event Payout Benchmarks (2026)",
     description:
       "Interactive LinkedIn B2B influencer pricing & Thought Leader Ad ROI calculator: compare executive CPMs, format multipliers, and CPL vs company-page ads.",
-    url: "https://influencerratecalc.com/linkedin-b2b-influencer-thought-leader-ad-rate-calculator",
+    url: "https://www.influencerratecalc.com/linkedin-b2b-influencer-thought-leader-ad-rate-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc B2B Demand Generation & Creator Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/linkedin-b2b-influencer-thought-leader-ad-rate-calculator",
+        "@id": "https://www.influencerratecalc.com/linkedin-b2b-influencer-thought-leader-ad-rate-calculator",
       },
     },
     {

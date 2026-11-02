@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Influencer Whitelisting & Paid Partnership CAC Calculator: Agency Fees vs In-House Outreach (2026)",
     description:
       "Model creator organic base rates, 30-day paid handle licensing multipliers, agency management retainers, and paid media ROAS vs all-in loaded ROAS.",
-    url: "https://influencerratecalc.com/influencer-whitelisting-paid-partnership-cac-calculator",
+    url: "https://www.influencerratecalc.com/influencer-whitelisting-paid-partnership-cac-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Paid Social & Creator Licensing Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/influencer-whitelisting-paid-partnership-cac-calculator",
+        "@id": "https://www.influencerratecalc.com/influencer-whitelisting-paid-partnership-cac-calculator",
       },
     },
     {

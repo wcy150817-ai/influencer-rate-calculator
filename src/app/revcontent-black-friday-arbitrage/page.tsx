@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import RevcontentArbitrageCalc from './RevcontentArbitrageCalc';
 
-const URL_PATH = 'https://influencerratecalc.com/revcontent-black-friday-arbitrage';
+const URL_PATH = 'https://www.influencerratecalc.com/revcontent-black-friday-arbitrage';
 const TITLE = 'Revcontent Black Friday Media Buying & Arbitrage: CTR Benchmarks You Must Hit (2026)';
 const DESCRIPTION =
   'A mathematical media buying guide for Q4 native ad arbitrage on Revcontent, analyzing holiday CPC bid inflation, publisher widget eCPM algorithms, pre-lander pass-through benchmarks, and break-even EPC modeling.';

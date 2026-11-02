@@ -6,7 +6,7 @@ import { Layers, Scale, Settings, ClipboardCheck, HelpCircle, ChevronRight, Book
 const TITLE = "Taboola vs Outbrain (2026): Bidding, Tracking, Policies and How to Choose";
 const DESCRIPTION =
   "A fact-checked comparison of Taboola Realize and Outbrain Amplify: documented bid strategies, learning phases, tracking, policy considerations and a fair test plan to decide which network suits your offer.";
-const URL = "https://influencerratecalc.com/native-ad-benchmarks-taboola-outbrain";
+const URL = "https://www.influencerratecalc.com/native-ad-benchmarks-taboola-outbrain";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -42,7 +42,7 @@ const articleLd = {
   dateModified: "2026-10-12",
   mainEntityOfPage: URL,
   author: { "@type": "Organization", name: "InfluencerRateCalc" },
-  publisher: { "@type": "Organization", name: "InfluencerRateCalc", url: "https://influencerratecalc.com" },
+  publisher: { "@type": "Organization", name: "InfluencerRateCalc", url: "https://www.influencerratecalc.com" },
 };
 
 const faqLd = {

@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import UgcCostCalculator from './UgcCostCalculator';
 
-const URL_PATH = 'https://influencerratecalc.com/ugc-video-ad-production-cost';
+const URL_PATH = 'https://www.influencerratecalc.com/ugc-video-ad-production-cost';
 const TITLE = 'UGC Video Ad Production Costs (2026): Fiverr Creators vs Production Agencies Pricing Calculator';
 const DESCRIPTION =
   'A rigorous B2B media buying analysis comparing user-generated content (UGC) video ad production costs across freelance Fiverr creators, boutique UGC marketplaces, and commercial production agencies.';

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Calculate transparent 2026 Instagram Sponsored Reel rates using 30-day median Reel views, vertical niche CPMs ($15–$35), engagement multipliers, Paid Partnership / whitelisting usage rights (+25%–35%/mo), and category exclusivity formulas.",
   alternates: {
     canonical:
-      "https://influencerratecalc.com/instagram-sponsored-reel-rate-calculator",
+      "https://www.influencerratecalc.com/instagram-sponsored-reel-rate-calculator",
   },
 };
 
@@ -28,17 +28,17 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
         author: {
           "@type": "Organization",
           name: "InfluencerRateCalc Creator Economy Desk",
-          url: "https://influencerratecalc.com",
+          url: "https://www.influencerratecalc.com",
         },
         publisher: {
           "@type": "Organization",
           name: "InfluencerRateCalc",
-          url: "https://influencerratecalc.com",
+          url: "https://www.influencerratecalc.com",
         },
         mainEntityOfPage: {
           "@type": "WebPage",
           "@id":
-            "https://influencerratecalc.com/instagram-sponsored-reel-rate-calculator",
+            "https://www.influencerratecalc.com/instagram-sponsored-reel-rate-calculator",
         },
       },
       {

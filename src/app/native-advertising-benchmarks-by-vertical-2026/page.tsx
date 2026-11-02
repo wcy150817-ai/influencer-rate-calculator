@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Native Advertising Benchmarks by Vertical (2026): Finance, E-Commerce, Health & B2B SaaS CTR, CPC & Breakeven EPC Calculator",
     description:
       "Mathematical unit-economics framework and interactive Breakeven EPC calculator for native discovery campaigns across Finance, E-Commerce, Health, B2B SaaS, and Content Arbitrage.",
-    url: "https://influencerratecalc.com/native-advertising-benchmarks-by-vertical-2026",
+    url: "https://www.influencerratecalc.com/native-advertising-benchmarks-by-vertical-2026",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Native Media Buying & Quantitative Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/native-advertising-benchmarks-by-vertical-2026",
+        "@id": "https://www.influencerratecalc.com/native-advertising-benchmarks-by-vertical-2026",
       },
     },
     {

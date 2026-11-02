@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   description:
     "Deconstruct why enterprise and SMB B2B SaaS brands fail on native ad networks like Taboola and Outbrain. Explore traffic leakage benchmarks, pre-lander bridge architecture, and calculate blended CAC and LTV ratios.",
   alternates: {
-    canonical: "https://influencerratecalc.com/b2b-saas-native-ads-cac",
+    canonical: "https://www.influencerratecalc.com/b2b-saas-native-ads-cac",
   },
   keywords: [
     "b2b saas native ads",
@@ -75,14 +75,14 @@ export default function B2BNativeAdsPage() {
                 author: {
                   "@type": "Organization",
                   name: "InfluencerRateCalc Media Buying Intelligence",
-                  url: "https://influencerratecalc.com",
+                  url: "https://www.influencerratecalc.com",
                 },
                 publisher: {
                   "@type": "Organization",
                   name: "InfluencerRateCalc",
-                  url: "https://influencerratecalc.com",
+                  url: "https://www.influencerratecalc.com",
                 },
-                mainEntityOfPage: "https://influencerratecalc.com/b2b-saas-native-ads-cac",
+                mainEntityOfPage: "https://www.influencerratecalc.com/b2b-saas-native-ads-cac",
               },
               {
                 "@type": "FAQPage",

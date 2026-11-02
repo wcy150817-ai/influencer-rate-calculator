@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "TikTok Shop Open Collaboration vs Target Collaboration: Sample COGS Loss, Creator Posting Rate & Net Contribution Margin Calculator (2026)",
     description:
       "Interactive TikTok Shop sample seeding and affiliate margin calculator: model ghosted sample COGS write-offs, effective cost per posted video, and breakeven GMV per sample.",
-    url: "https://influencerratecalc.com/tiktok-shop-open-vs-target-collab-margin-calculator",
+    url: "https://www.influencerratecalc.com/tiktok-shop-open-vs-target-collab-margin-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Social Commerce & Affiliate Economics Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/tiktok-shop-open-vs-target-collab-margin-calculator",
+        "@id": "https://www.influencerratecalc.com/tiktok-shop-open-vs-target-collab-margin-calculator",
       },
     },
     {

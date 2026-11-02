@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     'A technical 2026 media buying comparison of Taboola Realize, Outbrain Amplify, and MGID: SmartBid vs Conversion Bid Strategy vs MIA AI, learning-phase pacing, and break-even CPC formulas.',
   alternates: {
-    canonical: 'https://influencerratecalc.com/taboola-vs-outbrain-vs-mgid',
+    canonical: 'https://www.influencerratecalc.com/taboola-vs-outbrain-vs-mgid',
   },
   openGraph: {
     title: 'Taboola vs Outbrain vs MGID: Native Ad Bidding Strategies, Pacing & Campaign Setup Compared (2026)',
     description:
       'Compare documented bidding algorithms, learning-phase pacing windows, publisher supply footprints, and break-even CPC math across Taboola, Outbrain, and MGID.',
-    url: 'https://influencerratecalc.com/taboola-vs-outbrain-vs-mgid',
+    url: 'https://www.influencerratecalc.com/taboola-vs-outbrain-vs-mgid',
     type: 'article',
   },
 };
 
-const PAGE_URL = 'https://influencerratecalc.com/taboola-vs-outbrain-vs-mgid';
+const PAGE_URL = 'https://www.influencerratecalc.com/taboola-vs-outbrain-vs-mgid';
 
 export default function TaboolaVsOutbrainVsMgidPage() {
   const articleLd = {
@@ -34,12 +34,12 @@ export default function TaboolaVsOutbrainVsMgidPage() {
     author: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc Media Buying Intelligence',
-      url: 'https://influencerratecalc.com',
+      url: 'https://www.influencerratecalc.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc',
-      url: 'https://influencerratecalc.com',
+      url: 'https://www.influencerratecalc.com',
     },
   };
 

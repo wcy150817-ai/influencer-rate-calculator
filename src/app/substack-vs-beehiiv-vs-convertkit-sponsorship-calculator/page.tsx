@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Substack vs Beehiiv vs ConvertKit Sponsorship Rate Calculator: Newsletter CPM, Click-Through Rate & Cost-Per-Subscriber Benchmarks (2026)",
     description:
       "Interactive newsletter sponsorship pricing calculator: compute flat issue rates, Apple MPP deflated open CPMs, sponsor eCPC, and platform fee comparisons across Substack, Beehiiv, and ConvertKit.",
-    url: "https://influencerratecalc.com/substack-vs-beehiiv-vs-convertkit-sponsorship-calculator",
+    url: "https://www.influencerratecalc.com/substack-vs-beehiiv-vs-convertkit-sponsorship-calculator",
     type: "article",
   },
 };
@@ -35,16 +35,16 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "InfluencerRateCalc Newsletter & B2B Media Economics Desk",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "publisher": {
         "@type": "Organization",
         "name": "InfluencerRateCalc",
-        "url": "https://influencerratecalc.com",
+        "url": "https://www.influencerratecalc.com",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://influencerratecalc.com/substack-vs-beehiiv-vs-convertkit-sponsorship-calculator",
+        "@id": "https://www.influencerratecalc.com/substack-vs-beehiiv-vs-convertkit-sponsorship-calculator",
       },
     },
     {

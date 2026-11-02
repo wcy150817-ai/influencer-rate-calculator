@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     title: 'TikTok Shop Affiliate Commission vs Spark Ads ROAS Calculator for Brands (2026)',
     description:
       'Interactive TikTok Shop unit-economics simulator: model Open Plan vs Target Plan creator CPS, avoid the Spark Ads double-commission trap, and calculate your exact break-even ROAS.',
-    url: 'https://influencerratecalc.com/tiktok-shop-affiliate-vs-spark-ads-roas-calculator',
+    url: 'https://www.influencerratecalc.com/tiktok-shop-affiliate-vs-spark-ads-roas-calculator',
     type: 'article',
   },
 };
 
-const PAGE_URL = 'https://influencerratecalc.com/tiktok-shop-affiliate-vs-spark-ads-roas-calculator';
+const PAGE_URL = 'https://www.influencerratecalc.com/tiktok-shop-affiliate-vs-spark-ads-roas-calculator';
 
 export default function TikTokShopAffiliateVsSparkAdsPage() {
   const articleLd = {

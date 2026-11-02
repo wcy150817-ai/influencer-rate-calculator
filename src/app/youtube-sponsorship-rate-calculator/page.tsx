@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import YouTubeRateCalculator from './YouTubeRateCalculator';
 
-const URL_PATH = 'https://influencerratecalc.com/youtube-sponsorship-rate-calculator';
+const URL_PATH = 'https://www.influencerratecalc.com/youtube-sponsorship-rate-calculator';
 const TITLE = 'YouTuber Sponsorship Rate Calculator: How Much to Pay for 100k Subs (2026)';
 const DESCRIPTION =
   'Free YouTube sponsorship rate calculator and pricing guide. Calculate fair sponsor fees, view CPM benchmarks across 6 verticals, integration formats, and contracts for 100k subscriber channels.';
@@ -67,7 +67,7 @@ export default function YouTubeSponsorshipCalculatorPage() {
     author: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc Editorial Staff',
-      url: 'https://influencerratecalc.com',
+      url: 'https://www.influencerratecalc.com',
     },
   };
 
@@ -456,6 +456,10 @@ export default function YouTubeSponsorshipCalculatorPage() {
             <span>&bull;</span>
             <Link href="/native-ad-benchmarks-taboola-outbrain" className="text-emerald-400 hover:underline">
               Taboola vs Outbrain: Platform Comparison
+            </Link>
+            <span>&bull;</span>
+            <Link href="/sponsored-stream-rate-calculator" className="text-emerald-400 hover:underline">
+              Sponsored Stream Rate Calculator: Twitch, YouTube Live &amp; Kick
             </Link>
           </div>
         </section>
