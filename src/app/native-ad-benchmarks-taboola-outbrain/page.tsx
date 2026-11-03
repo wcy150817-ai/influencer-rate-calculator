@@ -3,15 +3,15 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Layers, Scale, Settings, ClipboardCheck, HelpCircle, ChevronRight, BookOpen, ShieldCheck } from "lucide-react";
 
-const TITLE = "Taboola vs Outbrain (2026): Bidding, Tracking, Policies and How to Choose";
+const TITLE = "Native Ad Creative Policy, S2S Tracking & Launch Checklist (2026)";
 const DESCRIPTION =
-  "A fact-checked comparison of Taboola Realize and Outbrain Amplify: documented bid strategies, learning phases, tracking, policy considerations and a fair test plan to decide which network suits your offer.";
+  "A pre-launch compliance, server-to-server (S2S) conversion tracking, and creative review checklist for native ad buyers running advertorial funnels.";
 const URL = "https://www.influencerratecalc.com/native-ad-benchmarks-taboola-outbrain";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: "/native-ad-benchmarks-taboola-outbrain" },
+  alternates: { canonical: "/taboola-vs-outbrain-vs-mgid" },
 };
 
 const faqs = [
@@ -74,7 +74,7 @@ export default function TaboolaVsOutbrain() {
 
         <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-5">
           <p className="text-sm text-indigo-800">
-            Looking for general CTR, CPC and CPA guidance rather than a network comparison? Start with our <Link href="/native-ad-kpi-benchmarks" className="font-bold underline text-indigo-900">Native Ad KPI Benchmarks hub</Link>, which explains the formulas and how to set your own targets. This page does not quote performance averages, because we could not source them to a named, dated report.
+            <strong>Looking for our main Outbrain vs. Taboola vs. MGID network comparison &amp; break-even CPC calculator?</strong> Go directly to our primary <Link href="/taboola-vs-outbrain-vs-mgid" className="font-bold underline text-indigo-900">Outbrain vs Taboola vs MGID (2026): Bidding Strategies, Pacing &amp; Break-Even CPC Calculator</Link> or our <Link href="/native-ad-kpi-benchmarks" className="font-bold underline text-indigo-900">Native Ad KPI Benchmarks hub</Link>.
           </p>
         </div>
 
