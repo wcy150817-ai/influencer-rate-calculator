@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import YouTubeRateCalculator from './YouTubeRateCalculator';
+import StreamHourCalculator from './StreamHourCalculator';
 
 const URL_PATH = 'https://www.influencerratecalc.com/youtube-sponsorship-rate-calculator';
-const TITLE = 'YouTuber Sponsorship Rate Calculator: How Much to Pay for 100k Subs (2026)';
+const TITLE = 'YouTube Video & Livestream Sponsorship Rate Calculator (2026): Dedicated, Integrated & Live Stream Pricing';
 const DESCRIPTION =
-  'Free YouTube sponsorship rate calculator and pricing guide. Calculate fair sponsor fees, view CPM benchmarks across 6 verticals, integration formats, and contracts for 100k subscriber channels.';
+  'Free YouTube sponsorship rate calculator for integrated, dedicated and live stream deals. Model fees from views or concurrent viewers, formats, usage rights and replay rights, with planning CPM ranges by vertical.';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -63,7 +64,7 @@ export default function YouTubeSponsorshipCalculatorPage() {
     description: DESCRIPTION,
     url: URL_PATH,
     datePublished: '2026-10-12',
-    dateModified: '2026-10-12',
+    dateModified: '2026-11-17',
     author: {
       '@type': 'Organization',
       name: 'InfluencerRateCalc Editorial Staff',
@@ -120,15 +121,29 @@ export default function YouTubeSponsorshipCalculatorPage() {
             Media Buying &amp; Creator Economy Guide (2026)
           </div>
           <h1 className="text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight">
-            YouTuber Sponsorship Rate Calculator: How Much to Pay for 100k Subs (2026)
+            YouTube Video &amp; Livestream Sponsorship Rate Calculator (2026): Dedicated, Integrated &amp; Live Stream Pricing
           </h1>
           <p className="text-sm sm:text-base text-slate-400 mt-3 leading-relaxed">
             Stop overpaying for vanity subscriber metrics. Use our dynamic mathematical model to calculate fair market sponsorship rates based on 30-day verified view velocity, audience commercial intent, and ad usage rights.
           </p>
         </div>
 
+        <div className="border border-emerald-800/70 bg-emerald-950/30 rounded-xl p-5 text-sm text-slate-200 space-y-2">
+          <p className="font-bold text-white">Pricing a live stream instead of a video?</p>
+          <p>
+            Jump to the <a href="#live-stream-calculator" className="text-emerald-400 underline font-semibold">live stream hour calculator</a> below, or open the dedicated <Link href="/sponsored-stream-rate-calculator" className="text-emerald-400 underline font-semibold">Sponsored Stream Rate Calculator for Twitch, YouTube Live &amp; Kick</Link>. If you are comparing audio deals, see the <Link href="/podcast-mid-roll-vs-pre-roll-cpm-rate-calculator" className="text-emerald-400 underline font-semibold">Podcast Mid-Roll vs Pre-Roll CPM Rate Calculator</Link>.
+          </p>
+          <p className="text-xs text-slate-400">
+            Methodology note: the CPM ranges and multipliers on this page are planning assumptions used to make the arithmetic concrete. They are not published industry benchmarks, and real deals vary widely by audience, offer and negotiation. Treat every output as a starting point for a conversation, not a market price.
+          </p>
+        </div>
+
         {/* The Interactive Calculator Component */}
         <YouTubeRateCalculator />
+
+        <div id="live-stream-calculator">
+          <StreamHourCalculator />
+        </div>
 
         {/* Section 1: The Fallacy of Subscriber-Based Pricing */}
         <section className="space-y-4">
