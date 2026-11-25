@@ -334,7 +334,7 @@ export default function B2BNativeAdsPage() {
               <p className="text-xs text-slate-400 mt-1">Commission high-converting native advertorials and conversion rate audit assets.</p>
             </div>
             <a
-              href="https://pbee.me/T21h0LEr7"
+              href="https://bbux.me/r9xBvo61g"
               target="_blank"
               rel="sponsored noopener noreferrer"
               style={{ color: "#ffffff !important" }}
@@ -541,7 +541,7 @@ export default function B2BNativeAdsPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
-              href="https://pbee.me/T21h0LEr7"
+              href="https://bbux.me/r9xBvo61g"
               target="_blank"
               rel="sponsored noopener noreferrer"
               style={{ color: "#ffffff !important" }}

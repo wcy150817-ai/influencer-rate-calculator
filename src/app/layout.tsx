@@ -11,9 +11,6 @@ const geistMono = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.influencerratecalc.com"),
-  alternates: {
-    canonical: "/",
-  },
   title: "Influencer Rate Calculator (2026) - Free Brand Deal & Sponsorship Pricing Tool",
   description:
     "Calculate how much to charge brands for sponsored posts across TikTok, Instagram, YouTube, and X. Get instant recommended rates, CPM benchmarks, and copyable email pitch scripts.",
@@ -51,27 +48,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebApplication",
-              name: "Influencer Rate Calculator",
-              applicationCategory: "BusinessApplication",
-              operatingSystem: "All",
-              description:
-                "Free online calculator for creators and influencers to calculate fair market rates for brand sponsorships.",
-              offers: {
-                "@type": "Offer",
-                price: "0",
-                priceCurrency: "USD",
-              },
-            }),
-          }}
-        />
-      </head>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 selection:bg-indigo-500 selection:text-white">
         {children}
       </body>

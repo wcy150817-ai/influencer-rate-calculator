@@ -208,7 +208,7 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                '<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:10px 16px;border-radius:8px;text-decoration:none;font-size:0.85rem;">Browse Reels Editors on Fiverr &rarr;</a>',
+                '<a href="https://bbux.me/r9xBvo61g" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:10px 16px;border-radius:8px;text-decoration:none;font-size:0.85rem;">Browse Reels Editors on Fiverr &rarr;</a>',
             }}
           />
         </div>
@@ -726,7 +726,7 @@ export default function InstagramSponsoredReelRateCalculatorPage() {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                '<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:0.88rem;text-align:center;">Hire Reels &amp; UGC Editors on Fiverr &rarr;</a>',
+                '<a href="https://bbux.me/r9xBvo61g" target="_blank" rel="sponsored noopener" style="display:inline-block;background:#4f46e5;color:#ffffff !important;font-weight:700;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:0.88rem;text-align:center;">Hire Reels &amp; UGC Editors on Fiverr &rarr;</a>',
             }}
           />
           <div

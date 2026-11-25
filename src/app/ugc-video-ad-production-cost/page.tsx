@@ -99,7 +99,7 @@ export default function UgcProductionCostPage() {
     })),
   };
 
-  const fiverrCtaHtml = `<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#10b981;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;box-shadow:0 4px 12px rgba(16,185,129,0.3)">Source Verified UGC Creators &amp; Video Editors on Fiverr &rarr;</a>`;
+  const fiverrCtaHtml = `<a href="https://bbux.me/r9xBvo61g" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#10b981;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;box-shadow:0 4px 12px rgba(16,185,129,0.3)">Source Verified UGC Creators &amp; Video Editors on Fiverr &rarr;</a>`;
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans w-full max-w-full overflow-x-hidden">

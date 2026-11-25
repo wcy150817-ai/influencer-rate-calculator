@@ -78,7 +78,7 @@ export default function TikTokVsReelsCpvPage() {
     })),
   };
 
-  const fiverrCtaHtml = `<a href="https://pbee.me/T21h0LEr7" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#111111;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;">Hire Freelance Video Editors &amp; Producers on Fiverr</a>`;
+  const fiverrCtaHtml = `<a href="https://bbux.me/r9xBvo61g" target="_blank" rel="sponsored noopener" style="display:inline-block;color:#ffffff !important;background:#111111;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;text-align:center;box-sizing:border-box;max-width:100%;">Hire Freelance Video Editors &amp; Producers on Fiverr</a>`;
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans w-full max-w-full overflow-x-hidden">

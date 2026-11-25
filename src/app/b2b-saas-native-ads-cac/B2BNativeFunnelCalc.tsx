@@ -188,7 +188,7 @@ export default function B2BNativeFunnelCalc() {
             </div>
           </div>
           <a
-            href="https://pbee.me/T21h0LEr7"
+            href="https://bbux.me/r9xBvo61g"
             target="_blank"
             rel="sponsored noopener noreferrer"
             data-style="color:#ffffff !important"
