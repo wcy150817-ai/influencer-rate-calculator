@@ -119,8 +119,10 @@ const DELIVERABLES = [
 
 export default function HomeRateCalculatorClient({
   children,
+  hideChrome = false,
 }: {
   children?: React.ReactNode;
+  hideChrome?: boolean;
 }) {
   const [platform, setPlatform] = useState<PlatformId>("youtube");
   const [followers, setFollowers] = useState<number>(35000);
@@ -218,46 +220,9 @@ Best regards,
     setTimeout(() => setCopied(false), 2500);
   };
 
-  return (
-    <div className="min-h-screen flex flex-col font-sans">
-      {/* Header */}
-      <header className="border-b border-slate-200 bg-white/80 backdrop-blur sticky top-0 z-40">
-        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white shadow-md shadow-indigo-100">
-              <DollarSign className="w-5 h-5 font-bold" />
-            </div>
-            <div>
-              <span className="font-bold text-lg text-slate-900 tracking-tight">InfluencerRate</span>
-              <span className="text-indigo-600 font-bold text-lg">Calc</span>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200">
-              <ShieldCheck className="w-3.5 h-3.5" />
-              100% Free & Private (Runs in Browser)
-            </span>
-          </div>
-        </div>
-      </header>
-
-      {/* Main Container */}
-      <main className="flex-1 max-w-6xl mx-auto px-4 py-8 md:py-12 w-full space-y-12">
-        {/* Hero */}
-        <div className="text-center max-w-3xl mx-auto space-y-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100">
-            <Sparkles className="w-3.5 h-3.5" /> 2026 Updated Creator Economy Benchmarks
-          </div>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
-            How Much Should You Charge for a Sponsored Post?
-          </h1>
-          <p className="text-base md:text-lg text-slate-600 leading-relaxed">
-            Stop undercharging brands. Calculate fair market sponsorship rates across YouTube, TikTok, Instagram, and X based on real CPM benchmarks and your exact niche.
-          </p>
-        </div>
-
-        {/* Calculator Grid */}
+  const calculatorCore = (
+    <div className="space-y-12">
+      {/* Calculator Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Controls Left Column */}
           <div className="lg:col-span-7 bg-white rounded-2xl border border-slate-200 shadow-sm p-6 space-y-6">
@@ -646,15 +611,48 @@ Best regards,
         </section>
 
         {children}
-      </main>
+    </div>
+  );
 
-      {/* Footer */}
+  if (hideChrome) {
+    return calculatorCore;
+  }
+
+  return (
+    <div className="min-h-screen flex flex-col font-sans">
+      <header className="border-b border-slate-200 bg-white/80 backdrop-blur sticky top-0 z-40">
+        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white shadow-md shadow-indigo-100">
+              <DollarSign className="w-5 h-5 font-bold" />
+            </div>
+            <div>
+              <span className="font-bold text-lg text-slate-900 tracking-tight">InfluencerRate</span>
+              <span className="text-indigo-600 font-bold text-lg">Calc</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200">
+              <ShieldCheck className="w-3.5 h-3.5" />
+              100% Free &amp; Private (Runs in Browser)
+            </span>
+          </div>
+        </div>
+      </header>
+      <main className="flex-1 max-w-6xl mx-auto px-4 py-8 md:py-12 w-full space-y-12">
+        <div className="text-center max-w-3xl mx-auto space-y-3">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100">
+            <Sparkles className="w-3.5 h-3.5" /> 2026 Updated Creator Economy Benchmarks
+          </div>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
+            How Much Should You Charge for a Sponsored Post?
+          </h1>
+        </div>
+        {calculatorCore}
+      </main>
       <footer className="border-t border-slate-200 bg-white py-8 text-center text-xs text-slate-500">
         <div className="max-w-6xl mx-auto px-4 space-y-2">
           <p>© 2026 InfluencerRateCalc. Built for creators and independent publishers worldwide.</p>
-          <p className="text-slate-400">
-            Rates provided are estimates based on aggregated industry medians and CPM averages. Actual deal pricing may vary based on engagement, exclusivity, and seasonality.
-          </p>
         </div>
       </footer>
     </div>
